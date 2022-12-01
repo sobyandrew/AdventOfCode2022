@@ -15,6 +15,7 @@ for line in lines:
 elfTotals.append(currElf)
 print(max(elfTotals))
 
+#solution 2
 top3 = 0
 
 for i in range(0,3):
