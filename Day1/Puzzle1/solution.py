@@ -1,4 +1,4 @@
-#day 1 solution 1
+# day 1 solution 1
 
 with open('input.txt') as f:
     lines = f.readlines()
@@ -15,13 +15,13 @@ for line in lines:
 elfTotals.append(currElf)
 print(max(elfTotals))
 
-#solution 2
+# solution 2
+
 top3 = 0
 
-for i in range(0,3):
+for i in range(0, 3):
     currMax = max(elfTotals)
     top3 += currMax
     elfTotals.remove(currMax)
 
 print(top3)
-
