@@ -27,6 +27,3 @@ for item in commonItems:
         total += ord(item) - 96
 
 print(total)
-
-
-
