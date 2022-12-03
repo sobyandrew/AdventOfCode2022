@@ -12,7 +12,6 @@ for i in range(0, len(lines), 3):
         sack1.add(c)
     for c in line2:
         sack2.add(c)
-
     for c in line3:
         if c in sack1 and c in sack2 and c not in sack3:
             commonItems.append(c)
